@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.edu-container {
+  width: 645px;
+
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.edu-content {
+  /* background-color: #ededed; */
+  border-radius: 8px;
+}
+.edu-header {
+  background-color: #ededed;
+}
+
+.logo-header {
+  text-align: center;
+  width: 145px;
+}
+.content-header {
+  background-color: #007814;
+}
+.content-header h2 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #95e17d;
+  margin: 10px 0px 0px 10px;
+}
+.uporer_content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa5a5;
+}
+.nicer-content h3 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 7px;
+  margin-bottom: 0px;
+}
+.nicer-content p {
+  color: #fff;
+  font-size: 14px;
+  text-align: end;
+  margin-bottom: 0px;
+  background-image: url("http://www.educationboardresults.gov.bd/images/bar_bk.jpg");
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.nicer-content p:hover {
+  color: #95e17d;
+}
+
+.body-content {
+  border: 1px solid #000;
+  width: 462px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.content-row {
+  margin-bottom: 10px;
+}
+.content-row label {
+  font-weight: bold;
+  width: 105px;
+}
+.content-row span {
+  font-weight: bold;
+  margin: 0px 20px 0px 10px;
+}
+.content-row select,
+.content-row input {
+  width: 205px;
+  padding: 1px 10px;
+  background-color: #ededed;
+  border-radius: 3px;
+}
+.btns button {
+  cursor: pointer;
+  border: 1px solid #cdc5c5;
+  border-radius: 3px;
+  padding: 0px 10px !important;
+}
+.edu-footer {
+  background-color: #ededed;
+  padding: 15px 8px;
+  border-radius: 7px;
+  margin-top: 15px;
+  border-top: 5px solid #86c775;
+}
+
+.edu-footer p {
+  vertical-align: middle;
+  font-size: 10px;
+  margin-top: 18px;
+}
+
+/* Result shit css */
+.student-result-shit table tr,
+.Grade_Sheet table tr {
+  font-size: 11px;
+}
+.studentImg img {
+  height: 103px;
+  width: 103px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.Grade_Sheet table tr td,
+.student-result-shit table tr td {
+  padding: 3px 7px !important;
+}
+
+/* student info page */
+.student table tr {
+  vertical-align: middle;
+}
+.student img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.student-single-Data img {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* student info page end */
+
+.imgsize{
+  width: 55px !important;
+  height: 55px !important;
+  border-radius: 50% !important;
+}
