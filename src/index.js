@@ -38,12 +38,12 @@ search_result.onsubmit = (e) => {
         item.reg === search_result_Data.reg &&
         item.roll === search_result_Data.roll &&
         item.Examination === search_result_Data.examination &&
-        //   item.board === search_result_Data.board &&
+        item.board === search_result_Data.board &&
         item.Year === search_result_Data.Year
     );
     if (searchResult) {
-        localStorage.setItem("searcgData", JSON.stringify(searchResult))
-      window.location.href="result.html"
+      localStorage.setItem("searcgData", JSON.stringify(searchResult));
+      window.location.href = "result.html";
     } else {
       alert("No Result Found");
     }
