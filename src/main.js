@@ -52,8 +52,8 @@ student_form.onsubmit = (e) => {
   localStorage.setItem("formDataa", JSON.stringify(formData));
 
   closer_modal.click();
-  ShowStudent();
   e.target.reset();
+  ShowStudent();
 };
 
 // show student Data
